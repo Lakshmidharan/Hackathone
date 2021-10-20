@@ -1,0 +1,50 @@
+.list{
+    background-color:white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    flex-direction: column;
+}
+
+body{
+    background-color: powderblue;
+}
+
+.list:hover{
+    opacity: 1;
+}
+.list:hover .name{
+    color:blue;
+}
+.name{
+    font-family: sans-serif;
+    margin: 0px;
+    border: 1rem;
+}
+.phone{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    border: 1rem;
+}
+.address_1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    border: 1rem;
+}
+.address_2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    border: 1rem;
+}
+.url{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    border: 1rem;
+}
+.type{
+    font-family: cursive;
+    margin: 0px;
+    border: 1rem;
+}
